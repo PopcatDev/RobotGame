@@ -22,7 +22,7 @@ class Robot:
     	y = y + location[1]
 
     	if (x==y):
-    		newLoc randomLocation(location)
+    		newLoc = randomLocation(location)
     	else:
     		newLoc = (x,y)
     	return newLoc
